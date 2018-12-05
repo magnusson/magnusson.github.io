@@ -1,12 +1,44 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import favicon from '../images/favicon.png'
+import Header from '../components/Header'
+import { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
 
-import Header from './header'
-import './layout.css'
+const GlobalStyle = createGlobalStyle`
+  html {
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+  }
 
-const Layout = ({ children }) => (
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 95%;
+    max-width: 670px;
+    font-family: "Rubik", sans-serif;
+    color: #fafbfc;
+    margin: 0 auto 4em;
+  }
+
+  a {
+    color: #fafbfc;
+    text-decoration: none;
+  }
+`
+
+const Main = styled.main`
+  margin-bottom: 0.25rem;
+`
+
+export default ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -22,30 +54,21 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content: 'A simple personal place on the web',
+            },
+          ]}
+          link={[
+            { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` },
           ]}
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
-          {children}
-        </div>
+        <Header title={data.site.siteMetadata.title} />
+        <Main>{children}</Main>
+        <GlobalStyle />
       </>
     )}
   />
 )
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
-
-export default Layout
