@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import favicon from '../images/favicon.png'
+import favicon from '../../content/assets/favicon.png'
 import Header from '../components/Header'
 import { createGlobalStyle } from 'styled-components'
 import styled from 'styled-components'
@@ -31,6 +31,10 @@ const GlobalStyle = createGlobalStyle`
   a {
     color: #fafbfc;
     text-decoration: none;
+  }
+
+  iframe {
+    border: none;
   }
 `
 
