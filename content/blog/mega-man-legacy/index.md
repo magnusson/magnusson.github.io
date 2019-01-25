@@ -1,6 +1,7 @@
 ---
-title: 'Mega Man Legacy Collection'
+title: 'Mega Man Legacy'
 date: '2019-01-16'
+tag: 'Games'
 ---
 
 Recently I've had an urge to play some of the older retro games I remember from when I was young. So I looked through my Steam library and found that I still had not completed the Mega Man Legacy Collections I picked up a while ago. The first collection is the six first Mega Man games released for the NES and it still has the same feel as if you were playing on the NES. With too many sprites on the screen there will be lag and the almost pixel perfect jump you are trying to do on your last life over the spikes is exactly as frustrating as I remember it.

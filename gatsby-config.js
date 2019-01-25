@@ -28,7 +28,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 670,
+              maxWidth: 825,
               linkImagesToOriginal: false,
               showCaptions: true,
             },
@@ -42,10 +42,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `rickard-magnusson`,
-        short_name: `rickard-magnusson`,
+        short_name: `magnusson`,
         start_url: `/`,
         background_color: `#1a1a1a`,
-        theme_color: `#3f88c5`,
+        theme_color: `#0e639c`,
         display: `minimal-ui`,
         icon: `content/assets/favicon.png`,
       },

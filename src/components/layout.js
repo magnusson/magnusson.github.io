@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import favicon from '../../content/assets/favicon.png'
-import Header from '../components/Header'
 import { createGlobalStyle } from 'styled-components'
 import styled from 'styled-components'
 
@@ -10,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     background-color: #1a1a1a;
+    font-size: 62.5%;
   }
 
   *,
@@ -21,11 +21,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    width: 95%;
-    max-width: 670px;
-    font-family: "Rubik", sans-serif;
+    font-family: "Oxygen", sans-serif;
     color: #fafbfc;
-    margin: 0 auto 4em;
   }
 
   a {
@@ -39,7 +36,9 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const Main = styled.main`
-  margin-bottom: 0.25rem;
+  width: 85%;
+  max-width: 825px;
+  margin: 4em auto;
 `
 
 export default ({ children }) => (
@@ -69,7 +68,6 @@ export default ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header title={data.site.siteMetadata.title} />
         <Main>{children}</Main>
         <GlobalStyle />
       </>

@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-blog",
+  "description": "A simple personal place on the web",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Rickard Magnusson <hello@rickardmagnusson.me>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
     "gatsby": "^2.0.19",
@@ -23,7 +23,7 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "styled-components": "^4.1.1",
-    "typeface-rubik": "^0.0.54"
+    "typeface-oxygen": "^0.0.54"
   },
   "keywords": [
     "gatsby"
@@ -42,6 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/magnusson/magnusson.github.io"
   }
 }

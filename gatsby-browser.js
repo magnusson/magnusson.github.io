@@ -1,1 +1,1 @@
-require('typeface-rubik')
+require('typeface-oxygen')

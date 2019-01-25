@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const LazyOwl = styled.div`
   & * + * {
-    margin-top: 1.2em;
+    margin-top: 3rem;
   }
 `
 

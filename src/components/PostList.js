@@ -3,12 +3,12 @@ import { StaticQuery, graphql } from 'gatsby'
 import PostListItem from '../components/PostListItem'
 import styled from 'styled-components'
 
-const Wrapper = styled.ul`
-  list-style-type: none;
-  padding-left: 0;
+const Wrapper = styled.ol`
+  list-style: none;
+  padding: 0;
 `
 
-export default ({ data }) => (
+export default () => (
   <StaticQuery
     query={graphql`
       query {
@@ -19,11 +19,13 @@ export default ({ data }) => (
               id
               frontmatter {
                 title
+                date
+                tag
               }
               fields {
                 slug
               }
-              excerpt
+              excerpt(pruneLength: 64)
             }
           }
         }
