@@ -6,7 +6,7 @@ tag: 'Games'
 
 <img src="./KeyArt_Furi.jpg" />
 
-Just finished playing through the camping of this game. And what a game it was. A classic boss rush with extremely polished bosses and mechanics.
+Just finished playing through the campaign of this game. And what a game it was. A classic boss rush with extremely polished bosses and mechanics.
 
 You play a cyborg ninja who just got released from a prison with the help of a strange guy wearing a rabbit hat called "The Voice".
 Just moments after the intro cinematic you will get throw into the first boss. Even though it is mostly a tutorial he will put a good fight and don't get surprised if you will have to retry a couple of times.

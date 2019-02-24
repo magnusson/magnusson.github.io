@@ -25,7 +25,7 @@ const Post = styled.li`
 `
 
 const PostLink = styled(Link)`
-  display: block;
+  flex-grow: 1;
 `
 
 const PostTitle = styled.h2`
@@ -54,7 +54,7 @@ const PostInfo = styled.div`
 `
 
 const PostTime = styled.time`
-  width: 140px;
+  width: 100px;
   font-size: 1.8rem;
   padding-bottom: 1rem;
 
