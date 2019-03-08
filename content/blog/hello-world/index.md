@@ -9,4 +9,4 @@ I think most of the posts will be about games, movies, shows or development.
 
 You can find the source at for this blog at <a href="https://github.com/magnusson/magnusson.github.io" target="_blank" rel="noreferrer">GitHub</a> where I also have a <a href="https://github.com/magnusson/dotfiles" target="_blank" rel="noreferrer">repo</a> with my settings I use in VSCode and what extensions I use.
 
-If you have any questions or want to contact me for any other reason you can contact me at <a href="mailto:hello@rickardmagnusson.me">hello@rickardmagnusson.me</a>
+If you have any questions or want to contact me for any other reason you can contact me at <a href="mailto:hello@magnusson.dev">hello@magnusson.dev</a>
