@@ -1,5 +1,5 @@
 ---
-title: 'Furi'
+title: 'Furi 🗡️'
 date: '2019-02-24'
 tag: 'Games'
 ---

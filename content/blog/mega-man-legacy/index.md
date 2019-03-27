@@ -1,5 +1,5 @@
 ---
-title: 'Mega Man Legacy'
+title: 'Mega Man Legacy 🕹️'
 date: '2019-01-16'
 tag: 'Games'
 ---

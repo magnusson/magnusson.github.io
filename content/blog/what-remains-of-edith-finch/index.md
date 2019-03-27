@@ -1,5 +1,5 @@
 ---
-title: 'What Remains of Edith Finch'
+title: 'What Remains of Edith Finch 💭'
 date: '2019-03-02'
 tag: 'Games'
 ---
