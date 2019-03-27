@@ -11,11 +11,11 @@ const Post = styled.li`
     background-color: #252526;
 
     h2 {
-      color: #0e639c;
+      color: #68b8ee;
     }
 
     time {
-      color: #0e639c;
+      color: #68b8ee;
     }
   }
 
@@ -30,7 +30,7 @@ const PostLink = styled(Link)`
 
 const PostTitle = styled.h2`
   font-size: 3rem;
-  padding: 1rem 0;
+  padding: 0 0 1rem;
 `
 
 const PostDesc = styled.p`
@@ -68,11 +68,19 @@ const PostTag = styled.div`
 
   p {
     display: inline-block;
-    background-color: #68217a;
+    color: ${props => props.type.color};
+    background-color: ${props => props.type.background};
     border-radius: 0.4rem;
     padding: 1rem;
   }
 `
+
+const tagColors = {
+  Code: { background: '#222222', color: '#fafbfc' },
+  Blog: { background: '#f57d00', color: '#1a1a1a' },
+  Games: { background: '#6441a4', color: '#fafbfc' },
+  Movies: { background: '#f5c518', color: '#1a1a1a' },
+}
 
 export default props => (
   <Post>
@@ -84,7 +92,7 @@ export default props => (
       <PostTime datetime={props.post.frontmatter.date}>
         {props.post.frontmatter.date}
       </PostTime>
-      <PostTag>
+      <PostTag type={tagColors[props.post.frontmatter.tag]}>
         <p>{props.post.frontmatter.tag}</p>
       </PostTag>
     </PostInfo>

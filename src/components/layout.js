@@ -59,7 +59,8 @@ export default ({ children }) => (
           meta={[
             {
               name: 'description',
-              content: 'A simple personal place on the web',
+              content:
+                'A simple personal place on the web, I sometimes write about coding, games and entertainment',
             },
           ]}
           link={[

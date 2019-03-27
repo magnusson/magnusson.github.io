@@ -22,6 +22,19 @@ const Post = styled(LazyOwl)`
     font-size: 1.2em;
     margin-top: 0.2em;
   }
+
+  blockquote {
+    border-left: 5px solid #68b8ee;
+    padding: 1em 1em;
+  }
+
+  ul {
+    margin-left: 1em;
+
+    li {
+      margin-top: 0;
+    }
+  }
 `
 
 const PostTitle = styled.h1`
