@@ -42,6 +42,7 @@ const Post = styled(LazyOwl)`
     line-height: 1;
     font-family: 'Consolas', 'Inconsolata', Courier, monospace;
     border-radius: 4px;
+    overflow-x: auto;
     padding: 1rem;
   }
 
