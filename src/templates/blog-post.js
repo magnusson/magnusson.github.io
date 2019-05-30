@@ -35,6 +35,26 @@ const Post = styled(LazyOwl)`
       margin-top: 0;
     }
   }
+
+  pre {
+    background-color: #f5f5f5;
+    font-size: 1.4rem;
+    line-height: 1;
+    font-family: 'Consolas', 'Inconsolata', Courier, monospace;
+    border-radius: 4px;
+    padding: 1rem;
+  }
+
+  pre code {
+    color: #1a1a1a;
+  }
+
+  code {
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+    font-size: 1.4rem;
+    font-family: 'Consolas', 'Inconsolata', Courier, monospace;
+  }
 `
 
 const PostTitle = styled.h1`
