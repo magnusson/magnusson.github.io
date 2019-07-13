@@ -26,32 +26,37 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-e582976d953ca8885c57.js"
+    "url": "webpack-runtime-0fbe669433420e0f49ca.js"
   },
   {
     "url": "styles.99bd81fd597448f71934.css"
   },
   {
-    "url": "styles-16cdd413d7d4528a02a2.js"
+    "url": "styles-83f301fc8e2541d8257c.js"
   },
   {
-    "url": "app-61462ae4eae55c7f7bcd.js"
+    "url": "app-895e87670fdab86fd30f.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-9981c50f97026cd4e5f5.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-ed000e31cdcc48cc5efd.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d74c2bd33fca105a5fe7cfea739687f4"
+    "revision": "8df39368b820ca48d9475aa6d3a8320c"
   },
   {
-    "url": "component---src-pages-404-js-d70b41b689d6f1fce159.js"
+    "url": "component---src-pages-404-js-12e0b2b40bf16240b14c.js"
   },
   {
-    "url": "0-3b6209295353cb67bca1.js"
+    "url": "0-ee8b8d4b701315052b42.js"
   },
   {
-    "url": "static/d/285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8.json"
+    "url": "page-data/404.html/page-data.json",
+    "revision": "4a735639016fa5dac8c6635fc5c12f1b"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "90c2966a5834efc64499f3fa53823006"
   },
   {
     "url": "manifest.webmanifest",
@@ -62,6 +67,7 @@ workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, workbox.strategies.cacheFirst(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, workbox.strategies.networkFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, workbox.strategies.staleWhileRevalidate(), 'GET');
 
