@@ -2,7 +2,7 @@
   "name": "gatsby-blog",
   "description": "A simple personal place on the web",
   "version": "1.0.0",
-  "author": "Rickard Magnusson <hello@magnusson.dev>",
+  "author": "Rickard Magnusson <me@magnusson.dev>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.98",
