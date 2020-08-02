@@ -1,10 +1,10 @@
 ---
-title: 'Project NES Update 1'
+title: 'Project NES Update 1 🧙‍♂️'
 date: '2020-08-02'
 tag: 'Games'
 ---
 
-Completed quite a few more games so here is an update. I seem to only be able to roll sequels of games but it has been a good mixture of games, some more fun the others.
+Completed quite a few more games, so here is an update. I seem to only be able to roll sequels of games but it has been a good mixture, some more fun the others.
 
 ## <a href="https://en.wikipedia.org/wiki/Solstice_(1990_video_game)" target="_blank" rel="noreferrer">Solstice</a>
 
@@ -15,7 +15,7 @@ Figuring out where you ended up after using a teleporter and when jump go up/dow
 
 A fun game overall with really nice movement.
 
-## <a href="https://en.wikipedia.org/wiki/Wizards_%26_Warriors_III:_Kuros:_Visions_of_Power)" target="_blank" rel="noreferrer">Wizards & Warriors III: Kuros: Visions of Power</a>
+## <a href="https://en.wikipedia.org/wiki/Wizards_%26_Warriors_III:_Kuros:_Visions_of_Power" target="_blank" rel="noreferrer">Wizards & Warriors III: Kuros: Visions of Power</a>
 
 This game really did not fall into my taste at all. The movement felt really clunky and I did not enjoy the metroidvania style of the game where I could walk into a door and end up far away from where I were and had to walk all the way back to keep exploring. And after playing for a while I'm pretty sure I got softlocked by picking up items in the wrong order so I decided to look follow a walk-through to complete the game. I even decided the use save state for the third wizard guild that I had a really big problem with getting on the platforms...
 
