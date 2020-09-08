@@ -4,7 +4,7 @@ date: '2020-09-08'
 tag: 'Games'
 ---
 
-A few more games completed, I'm now up to 18 games completed.
+A few more games completed, I'm now up to 18 completed games.
 
 ## <a href="https://en.wikipedia.org/wiki/Metroid_(video_game)" target="_blank" rel="noreferrer">Metroid</a>
 
@@ -13,7 +13,7 @@ For the most part I do not enjoy the back and forth figuring out where to go nex
 
 But even with a map it is hard to find your way because of all the hidden paths that are so easy to miss the first time you are in an area. But I think I managed to find quite a few Energy Tanks ended up with six at the end and lots of missiles. Since the game took quite some time for me to complete I did use passwords quite a few times and starting with only 30 energy really was painful. So often I ended up starting my sessions with farming energy from Geegas or Zebs. With more and more energy tanks through the game it took some time to fill them up to be able to try to progress.
 
-This is the map I ended up with. Colors are not correct is probably missing lots of rooms and some might be incorrect.
+This is the map I ended up with. Colors are not correct and is probably missing lots of rooms and some might not be correct.
 
 <img src="./metroid-map.png" />
 
