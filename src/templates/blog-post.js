@@ -8,6 +8,7 @@ import styled from 'styled-components'
 const Post = styled(LazyOwl)`
   font-size: 2.4rem;
   line-height: 3rem;
+  padding: 0 1rem;
 
   a {
     text-decoration: underline;

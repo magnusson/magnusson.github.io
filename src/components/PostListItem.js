@@ -68,8 +68,6 @@ const PostTag = styled.div`
 
   p {
     display: inline-block;
-    color: ${props => props.type.color};
-    background-color: ${props => props.type.background};
     border-radius: 0.4rem;
     padding: 1rem;
   }
@@ -92,8 +90,15 @@ export default props => (
       <PostTime datetime={props.post.frontmatter.date}>
         {props.post.frontmatter.date}
       </PostTime>
-      <PostTag type={tagColors[props.post.frontmatter.tag]}>
-        <p>{props.post.frontmatter.tag}</p>
+      <PostTag>
+        <p
+          style={{
+            backgroundColor: tagColors[props.post.frontmatter.tag].background,
+            color: tagColors[props.post.frontmatter.tag].color,
+          }}
+        >
+          {props.post.frontmatter.tag}
+        </p>
       </PostTag>
     </PostInfo>
   </Post>

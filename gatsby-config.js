@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Magnusson`,
+    title: `magnusson`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,7 +42,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `rickard-magnusson`,
+        name: `magnusson`,
         short_name: `magnusson`,
         start_url: `/`,
         background_color: `#1a1a1a`,

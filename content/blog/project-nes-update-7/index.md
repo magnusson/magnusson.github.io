@@ -1,0 +1,28 @@
+---
+title: 'Project NES Update 7 Mega Man Special 💙'
+date: '2020-11-28'
+tag: 'Games'
+---
+
+Decided to not randomize games this time and rather play through the Mega Man series. I've recently been watching a few speedrunners of the original game I decided that I wanted to get them done.
+I've already writing a bit about the Mega Man games <a href="/mega-man-legacy">here</a>.
+
+## <a href="https://en.wikipedia.org/wiki/Mega_Man_(1987_video_game)" target="_blank" rel="noreferrer">Mega Man</a>
+
+Such a solid and fun game, knowing the bosses weaknesses makes it a lot easier and quicker to complete. A bit funky controls to get used to but since I've played it before I get through the game quite easily.
+
+## <a href="https://en.wikipedia.org/wiki/Mega_Man_2" target="_blank" rel="noreferrer">Mega Man 2</a>
+
+It's got all that the first game got but with improvements, might even be better than the original game. I did not remember the weaknesses for the bosses in this game but managed to buster down the ones that I did not had the correct upgrade for yet.
+
+## <a href="https://en.wikipedia.org/wiki/Mega_Man_3" target="_blank" rel="noreferrer">Mega Man 3</a>
+
+Again it much of the same, but now Mega Man can slide. I think this game is much harder than the previous ones. Since I don't remember weaknesses I mostly used buster on the first bosses and it is more challenging bosses then others. I also had to frequently use the e-tanks especially on the Wily levels.
+
+## <a href="https://en.wikipedia.org/wiki/Mega_Man_4" target="_blank" rel="noreferrer">Mega Man 4</a>
+
+Now with mega buster! I keep getting the feeling that bosses and levels keep getting a bit harder for each game. Might be me that was bad at finding weaknesses for bosses but those I found did not do as much damage as in the previous games. Like in Mega Man 2 where you can oneshot Wood Man with Atomic Fire. But again a game I really enjoyed.
+
+## <a href="https://en.wikipedia.org/wiki/Mega_Man_5" target="_blank" rel="noreferrer">Mega Man 5</a>
+
+This game feels a bit harder still and the weaknesses does not do as much damage. But with charged buster you do lots of damage anyway so just dodge and charge and bosses goes down quite easily. I did not care about grabbing all the letters for Beat in this playthrough, but it adds a bit of replayability that I do not find the previous games had.

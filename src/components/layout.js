@@ -36,7 +36,6 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const Main = styled.main`
-  width: 85%;
   max-width: 825px;
   margin: 4em auto;
 `
