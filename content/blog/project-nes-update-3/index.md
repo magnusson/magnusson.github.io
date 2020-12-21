@@ -27,7 +27,7 @@ Never seen this game before. A small arcade game with three different levels tha
 
 Since I played the remastered version on Steam for some time ago this was a breeze to complete. Really nice gameplay and the levels with it's secrets are enjoyable. Might be a bit short game and some levels goes really quick if you do not explore and look for hidden treasures.
 
-## <a href="https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Trojan_(video_game)" target="_blank" rel="noreferrer">Trojan</a>
+## <a href="https://en.wikipedia.org/wiki/Trojan_(video_game)" target="_blank" rel="noreferrer">Trojan</a>
 
 Extremely punishing game but it had a little something that I enjoyed. There is no way I would complete it without using save states without playing it much more. But that makes sense since it was originally a arcade game made to eat up coins. That also explains the missing continue feature that I think would have made the game way easier.
 
