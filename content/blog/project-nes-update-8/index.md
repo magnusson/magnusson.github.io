@@ -1,5 +1,5 @@
 ---
-title: 'Project NES Update 8'
+title: 'Project NES Update 8 🐢💊'
 date: '2021-01-30'
 tag: 'Games'
 ---
