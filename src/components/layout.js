@@ -67,6 +67,11 @@ export default ({ children }) => (
           ]}
         >
           <html lang="en" />
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon='{"token": "ef066a3c5dc14cc2819c6d9e7f00477d"}'
+          ></script>
         </Helmet>
         <Main>{children}</Main>
         <GlobalStyle />
