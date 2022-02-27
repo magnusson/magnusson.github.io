@@ -14,7 +14,7 @@ const Content = styled.p`
   padding: 1rem;
 `
 
-export default () => (
+const PageNotFound = () => (
   <Layout>
     <Title>
       Not found{' '}
@@ -31,3 +31,5 @@ export default () => (
     <PostList />
   </Layout>
 )
+
+export default PageNotFound

@@ -64,7 +64,7 @@ const PostTitle = styled.h1`
   line-height: 5.4rem;
 `
 
-export default ({ data }) => {
+const BlogPost = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
@@ -94,3 +94,5 @@ export const query = graphql`
     }
   }
 `
+
+export default BlogPost

@@ -40,7 +40,7 @@ const Main = styled.main`
   margin: 4em auto;
 `
 
-export default ({ children }) => (
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -79,3 +79,5 @@ export default ({ children }) => (
     )}
   />
 )
+
+export default Layout

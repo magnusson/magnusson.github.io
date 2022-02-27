@@ -8,7 +8,7 @@ const Wrapper = styled.ol`
   padding: 0;
 `
 
-export default () => (
+const PostList = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -40,3 +40,5 @@ export default () => (
     )}
   />
 )
+
+export default PostList

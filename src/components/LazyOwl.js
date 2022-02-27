@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const LazyOwl = styled.div`
+const LazyOwlStyle = styled.div`
   & * + * {
     margin-top: 3rem;
   }
 `
 
-export default ({ className, children }) => (
-  <LazyOwl className={className}>{children}</LazyOwl>
+const LazyOwl = ({ className, children }) => (
+  <LazyOwlStyle className={className}>{children}</LazyOwlStyle>
 )
+
+export default LazyOwl

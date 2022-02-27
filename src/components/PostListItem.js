@@ -80,7 +80,7 @@ const tagColors = {
   Movies: { background: '#f5c518', color: '#1a1a1a' },
 }
 
-export default props => (
+const PostListItem = props => (
   <Post>
     <PostLink to={props.post.fields.slug}>
       <PostTitle>{props.post.frontmatter.title}</PostTitle>
@@ -103,3 +103,5 @@ export default props => (
     </PostInfo>
   </Post>
 )
+
+export default PostListItem
