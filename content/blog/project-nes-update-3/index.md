@@ -31,7 +31,7 @@ Since I played the remastered version on Steam for some time ago this was a bree
 
 Extremely punishing game but it had a little something that I enjoyed. There is no way I would complete it without using save states without playing it much more. But that makes sense since it was originally a arcade game made to eat up coins. That also explains the missing continue feature that I think would have made the game way easier.
 
-## Donkey Kong Classics
+## Donkey Kong Classics (<a href="https://en.wikipedia.org/wiki/Donkey_Kong_(video_game)" target="_blank" rel="noreferrer">Donkey Kong</a>, <a href="https://en.wikipedia.org/wiki/Donkey_Kong_Jr." target="_blank" rel="noreferrer">Donkey Kong Jr.</a>)
 
 Two for one, both Donkey Kong and Donkey Kong Jr. in this one.
 I am not entirely sure how to complete these endless arcade games. But I play them for a while and try to do as best as I can.
